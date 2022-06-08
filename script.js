@@ -32,6 +32,11 @@ if (perguntas == 0) {
 function mudar(somar) {
     resposta.innerHTML = ""
     perguntas += somar
+    if (perguntas > 2) {
+        perguntas = 0
+    } else if (perguntas < 0 ) {
+        perguntas = 2
+    }
     if (perguntas == 0) {
         questao.innerHTML = "Qual a população do mundo?"
         escolha1.innerHTML = "8 a 7 bilhões"
