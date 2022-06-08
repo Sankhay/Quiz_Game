@@ -1,0 +1,80 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#principal {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    
+}
+
+#voltar {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 20vw;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    background: white;
+}
+
+#proximo {
+    text-align: right;
+    margin-left: 40vw;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    background: white;
+}
+
+#questao {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 6vh;
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    border-radius: 20px;
+    color: white;
+}
+
+.escolha {
+    font-size: 50px;
+    margin-left: 15vw;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15vw;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+#escolha1 {
+    background-color: blueviolet;
+}
+
+#escolha2 {
+    background-color: green;
+}
+
+#escolha3{
+    background-color: red;
+}
+
+#resposta {
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+}
