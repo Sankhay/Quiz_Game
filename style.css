@@ -26,6 +26,7 @@ html {
     padding: 3px;
     border-radius: 20px;
     background: white;
+    margin-bottom: 20px;
 }
 
 #proximo {
@@ -38,6 +39,7 @@ html {
     padding: 3px;
     border-radius: 20px;
     background: white;
+    margin-bottom: 20px;
 }
 
 #questao {
@@ -78,3 +80,10 @@ html {
     font-size: 5vh;
     color: white;
 }
+@media screen and (max-width:851px) and (min-width:300px) {
+    html {
+        background-image: url("background12.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
